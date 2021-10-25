@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #073b4b;
+} 
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    padding: 50px;
+}
+
+#container-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    background-color: #073b4b;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(75% / 7);
+    height: 90px;
+    background-color: #1489b2;
+    margin: 10px;
+}
