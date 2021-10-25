@@ -39,3 +39,15 @@ h1 {
     background-color: #1489b2;
     margin: 10px;
 }
+
+.green {
+    background-color: #0cd7a0;
+}
+
+.yellow {
+    background-color: #ffd166;
+}
+
+.red {
+    background-color: #f0476f;
+}
