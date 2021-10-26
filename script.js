@@ -8,6 +8,6 @@ const contBlocks = document.getElementById("container-blocks");
     } else if (i % 5 == 0) {
         contBlocks.innerHTML += `<div class="blocks yellow">${i}</div>`;
     } else {
-    contBlocks.innerHTML += `<div class="blocks">${i}</div>`;
+        contBlocks.innerHTML += `<div class="blocks">${i}</div>`;
     }
 }
